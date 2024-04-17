@@ -62,8 +62,10 @@ const ProfileCard = () => {
           <div className="flex flex-row items-center space-x-1 text-sm">
             <button className="action-link">
               <a
-                href="/MATHIEU_STROSBERG_CV.pdf"
-                download="MATHIEU_STROSBERG_CV.pdf"
+                href="./public/CV_MATHIEUSTROSBERG.pdf"
+                target="_blank"
+                alt="Mathieu Strosberg CV"
+                rel="noopener noreferrer"
               >
                 Curriculum vitae
               </a>
