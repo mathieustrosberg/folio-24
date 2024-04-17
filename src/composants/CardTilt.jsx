@@ -59,13 +59,9 @@ const CardTilt = ({ project }) => {
         <div className="modal-box max-w-[740px] max-w-5xl p-7 md:p-24">
           <div className="modal-action">
             <form method="dialog">
-              <button>
+              <button className="outline-none">
                 <div className="bg-slate-100 rounded-full p-3">
-                  <img
-                    className="w-6 h-auto outline-none"
-                    src={Close}
-                    alt="Close"
-                  />
+                  <img className="w-6 h-auto " src={Close} alt="Close" />
                 </div>
               </button>
             </form>
