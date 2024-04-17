@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 93.9 93.92">
   <defs>
-    <style>
+   <style>
+      @font-face {
+        font-family: "nm";
+        src: url("@/assets/fonts/NeueMontreal-Regular.woff2") format("woff2"),
+    url("@/assets/fonts/NeueMontreal-Regular.woff") format("woff");
+      }
       .cls-1 {
         fill: #1d1d1b;
-        font-family: nm;
+        font-family: "nm";
         font-size: 12px;
       }
     </style>
