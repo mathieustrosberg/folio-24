@@ -94,7 +94,7 @@ const ProfileCard = () => {
         </div>
 
         <div>
-          <h1 className="font-bold md:text-lg lg:text-xl">
+          <h1 className="font-medium md:text-lg lg:text-xl">
             Mathieu Strosberg <div className="swinging-emoji ml-1">👋</div>
             <br />
             <span className="text-gray-500">

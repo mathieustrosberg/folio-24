@@ -4,7 +4,7 @@
     <style>
       .cls-1 {
         fill: #1d1d1b;
-        font-family: NeueMontreal-Regular, 'Neue Montreal';
+        font-family: nm;
         font-size: 12px;
       }
     </style>

@@ -61,7 +61,11 @@ const CardTilt = ({ project }) => {
             <form method="dialog">
               <button>
                 <div className="bg-slate-100 rounded-full p-3">
-                  <img className="w-6 h-auto" src={Close} alt="Close" />
+                  <img
+                    className="w-6 h-auto outline-none"
+                    src={Close}
+                    alt="Close"
+                  />
                 </div>
               </button>
             </form>
