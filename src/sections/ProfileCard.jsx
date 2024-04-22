@@ -88,11 +88,13 @@ const ProfileCard = () => {
             className="rounded-3xl w-48 md:w-64 h-auto"
             src={profilePicture}
             alt="Portrait de Mathieu Strosberg"
+            loading="lazy"
           />
           <img
             className="absolute top-1/2 left-32 md:left-48 transform -translate-y-1/2 h-28 md:h-32 w-auto animate-spin-slow"
             src={Icon}
             alt=""
+            loading="lazy"
           />
         </div>
 

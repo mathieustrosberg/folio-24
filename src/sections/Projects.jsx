@@ -20,6 +20,7 @@ const Projects = () => {
       <div className="flex flex-col md:flex-row md:flex-wrap md:w-9/12 leading-7 gap-6 text-sm">
         {projectsData.map((project) => (
           <CardTilt
+            loading="lazy"
             key={project.name}
             project={{ ...project, image: images[project.name] }}
           />
