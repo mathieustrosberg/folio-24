@@ -2,7 +2,7 @@ import React from "react";
 
 import SeparatorSVG from "./SeparatorSVG";
 
-const StackList = ({ className }) => {
+const StackList = () => {
   const skills = [
     "JavaScript",
     "React",
