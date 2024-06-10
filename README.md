@@ -1,8 +1,15 @@
-# React + Vite
+<h1 align="center">FOLIO 24</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+<img width="800" alt="Home page" src="https://github.com/mathieustrosberg/FOLIO_23/blob/main/src/images/folio.jpg](https://github.com/mathieustrosberg/folio-24/blob/main/src/assets/images/home.png" />
+</p>
 
-Currently, two official plugins are available:
+<br />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Click on this link to take a look at the project : https://www.mathieustrosberg.com
+
+<br />
+
+## About this project
+
+The Portfolio Project is a **front-end** project made in 2023 with **React** & **Tailwind**.
