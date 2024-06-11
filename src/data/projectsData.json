@@ -2,7 +2,8 @@
   {
     "name": "Marvel",
     "description": "Application web en React intégrant un routeur pour naviguer entre les pages 'Personnages', 'Comics' et 'Favoris'. La page principale affichera les personnages de MARVEL sous forme de fiches, avec accès aux comics liés. Une page dédiée aux comics présentera ces derniers par ordre alphabétique. Incluez des moteurs de recherche et un système de pagination pour chaque page. Les favoris seront stockés dans la mémoire locale du navigateur. Le site sera déployé sur Netlify et le backend sur Heroku, en utilisant l'API MARVEL de manière sécurisée.",
-    "link": "https://github.com/mathieustrosberg/marvel-app-front"
+    "link": "https://github.com/mathieustrosberg/marvel-app-front",
+    "link_2": "https://github.com/mathieustrosberg/marvel-app-back"
   },
   {
     "name": "Just you Coiffure",

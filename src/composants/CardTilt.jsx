@@ -68,7 +68,8 @@ const CardTilt = ({ project }) => {
           </div>
           <h3 className="font-bold text-xl">{project.name}</h3>
           <p className="py-4">{project.description}</p>
-          <a className="link">{project.link}</a>
+          <a className="link">{project.link}</a> <br></br>
+          <a className="link">{project.link_2}</a>
           <img
             className="rounded-lg w-auto h-auto mt-4 object-cover"
             src={project.image}
