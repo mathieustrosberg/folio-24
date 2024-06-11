@@ -2,12 +2,12 @@
   {
     "name": "Marvel",
     "description": "Application web en React intégrant un routeur pour naviguer entre les pages 'Personnages', 'Comics' et 'Favoris'. La page principale affichera les personnages de MARVEL sous forme de fiches, avec accès aux comics liés. Une page dédiée aux comics présentera ces derniers par ordre alphabétique. Incluez des moteurs de recherche et un système de pagination pour chaque page. Les favoris seront stockés dans la mémoire locale du navigateur. Le site sera déployé sur Netlify et le backend sur Heroku, en utilisant l'API MARVEL de manière sécurisée.",
-    "link": "https://github.com/mathieustrosberg"
+    "link": "https://github.com/mathieustrosberg/marvel-app-front"
   },
   {
     "name": "Just you Coiffure",
     "description": "Le projet consiste à développer un site vitrine pour un salon de coiffure, permettant au gérant de mettre à jour les informations via une interface sécurisée. Pour cela, nous utiliserons React pour le frontend, avec Vite pour une construction et un déploiement rapides, et Node.js pour le backend. Le site intégrera un système d'authentification pour que seules les personnes autorisées puissent modifier les contenus. Les principales fonctionnalités incluront la gestion des services proposés, les horaires d'ouverture, et un formulaire de contact.",
-    "link": "https://github.com/mathieustrosberg"
+    "link": "https://github.com/mathieustrosberg/just-you-coiffure-website"
   },
   {
     "name": "ABGS Pétanque",
