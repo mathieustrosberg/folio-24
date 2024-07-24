@@ -74,7 +74,7 @@ const CardTilt = ({ project }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {project.link}
+            Site Web
           </a>{" "}
           <br></br>
           <a
@@ -83,7 +83,7 @@ const CardTilt = ({ project }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {project.link_2}
+            Github
           </a>
           <img
             className="rounded-lg w-auto h-auto mt-4 object-cover"
