@@ -1,7 +1,7 @@
 [
   {
     "name": "Marvel",
-    "description": "Application web en React intégrant un routeur pour naviguer entre les pages 'Personnages', 'Comics' et 'Favoris'. La page principale affichera les personnages de MARVEL sous forme de fiches, avec accès aux comics liés. Une page dédiée aux comics présentera ces derniers par ordre alphabétique. Incluez des moteurs de recherche et un système de pagination pour chaque page. Les favoris seront stockés dans la mémoire locale du navigateur. Le site est déployé sur Vercel, en utilisant l'API MARVEL de manière sécurisée.",
+    "description": "Application web en React intégrant un routeur pour naviguer entre les pages 'Personnages', 'Comics' et 'Favoris'. La page principale affiche les personnages de MARVEL sous forme de fiches, avec accès aux comics liés. Une page dédiée aux comics présente ces derniers par ordre alphabétique. Des moteurs de recherche et un système de pagination sont inclus pour chaque page. Les favoris sont stockés dans la mémoire locale du navigateur. Le site est déployé sur Vercel, en utilisant l'API MARVEL de manière sécurisée. Le site est également responsive.",
     "link": "https://marvel-app-front.vercel.app/",
     "link_2": "https://github.com/mathieustrosberg/marvel-app"
   },
