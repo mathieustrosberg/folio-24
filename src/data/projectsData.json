@@ -2,8 +2,8 @@
   {
     "name": "Marvel",
     "description": "Application web en React intégrant un routeur pour naviguer entre les pages 'Personnages', 'Comics' et 'Favoris'. La page principale affichera les personnages de MARVEL sous forme de fiches, avec accès aux comics liés. Une page dédiée aux comics présentera ces derniers par ordre alphabétique. Incluez des moteurs de recherche et un système de pagination pour chaque page. Les favoris seront stockés dans la mémoire locale du navigateur. Le site sera déployé sur Netlify et le backend sur Heroku, en utilisant l'API MARVEL de manière sécurisée.",
-    "link": "https://github.com/mathieustrosberg/marvel-app-front",
-    "link_2": "https://github.com/mathieustrosberg/marvel-app-back"
+    "link": "https://marvel-app-front.vercel.app/",
+    "link_2": "https://github.com/mathieustrosberg/marvel-app"
   },
   {
     "name": "Just you Coiffure",
@@ -11,8 +11,9 @@
     "link": "https://github.com/mathieustrosberg/just-you-coiffure-website"
   },
   {
-    "name": "ABGS Pétanque",
-    "description": "Le projet consiste à créer un site web pour un club de pétanque, offrant une plateforme centrale pour les membres et les amateurs de pétanque. Le site présentera des informations sur le club, les événements à venir, les résultats des tournois, les membres, les horaires d'entraînement, les règles du jeu, les sponsors, et fournira un moyen de contact. Il comprendra également des galeries de photos et de vidéos, des actualités régulières. L'objectif est de promouvoir le club, de rassembler la communauté de la pétanque et d'attirer de nouveaux participants.",
-    "link": "Soon"
+    "name": "Folio 2023",
+    "description": "Ce portfolio présente mon parcours professionnel et académique, mes projets, et toutes les informations nécessaires pour me contacter. J'ai utilisé React pour créer une interface utilisateur dynamique et interactive, et React Router pour faciliter la navigation entre les différentes sections du site.",
+    "link": "https://folio2023-mathieustrosberg.netlify.app",
+    "link_2": "https://github.com/mathieustrosberg/folio-23"
   }
 ]

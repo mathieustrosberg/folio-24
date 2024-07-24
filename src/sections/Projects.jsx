@@ -10,7 +10,7 @@ import project3 from "@/assets/images/project-3.jpg";
 const images = {
   Marvel: project1,
   "Just you Coiffure": project2,
-  "ABGS Pétanque": project3,
+  "Folio 2023": project3,
 };
 
 const Projects = () => {
