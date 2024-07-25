@@ -3,6 +3,24 @@ import { useState, useCallback } from "react";
 
 import Close from "@/assets/svg/btn-close.svg";
 
+import project1 from "@/assets/images/project-1.jpg";
+import project2 from "@/assets/images/project-2.jpg";
+import project3 from "@/assets/images/project-3.jpg";
+import project4 from "@/assets/images/project-4.png";
+import project5 from "@/assets/images/project-5.jpg";
+import project6 from "@/assets/images/project-6.jpg";
+import project1Image2 from "@/assets/images/projectImage2.jpg";
+import project1Image3 from "@/assets/images/projectImage3.jpg";
+
+const images = {
+  Marvel: [project1],
+  "Just you Coiffure": [project2],
+  "Folio 2023": [project3],
+  "Folio 2024": [project4],
+  "ADM Concept Store": [project5],
+  "Loon-Garden Restaurant": [project6, project1Image2, project1Image3],
+};
+
 function throttle(func, delay) {
   let lastCall = 0;
   return function (...args) {
@@ -49,7 +67,7 @@ const CardTilt = ({ project }) => {
         onMouseLeave={onMouseLeave}
         style={{
           transform: `perspective(1000px) rotateX(${rotate.x}deg) rotateY(${rotate.y}deg) scale3d(1, 1, 1)`,
-          backgroundImage: `url(${project.image})`,
+          backgroundImage: `url(${images[project.name][0]})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -61,35 +79,48 @@ const CardTilt = ({ project }) => {
             <form method="dialog">
               <button className="outline-none">
                 <div className="bg-slate-100 rounded-full p-3">
-                  <img className="w-6 h-auto " src={Close} alt="Close" />
+                  <img className="w-6 h-auto" src={Close} alt="Close" />
                 </div>
               </button>
             </form>
           </div>
           <h3 className="font-bold text-xl">{project.name}</h3>
           <p className="py-4">{project.description}</p>
-          <a
-            className="link"
-            href={project.link}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Site Web
-          </a>{" "}
-          <br></br>
-          <a
-            className="link"
-            href={project.link_2}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Github
-          </a>
-          <img
-            className="rounded-lg w-auto h-auto mt-4 object-cover"
-            src={project.image}
-            alt={`Project ${project.name}`}
-          />
+          {project.link && (
+            <>
+              <a
+                className="link"
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Site Web
+              </a>
+              <br />
+            </>
+          )}
+          {project.link_2 && (
+            <>
+              <a
+                className="link"
+                href={project.link_2}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
+              <br />
+            </>
+          )}
+          {images[project.name] &&
+            images[project.name].map((image, index) => (
+              <img
+                key={index}
+                className="rounded-lg w-auto h-auto mt-4 object-cover"
+                src={image}
+                alt={`Project ${project.name} image ${index + 1}`}
+              />
+            ))}
         </div>
       </dialog>
     </>

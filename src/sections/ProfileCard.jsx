@@ -103,9 +103,9 @@ const ProfileCard = () => {
             Mathieu Strosberg <div className="swinging-emoji ml-1">👋</div>
             <br />
             <span className="text-gray-500">
-              Recherche Alternance <br />
-              Concepteur Développeur en <br />
-              Nouvelles Technologies RNCP 6
+              Recherche Alternance Bac +3 <br />
+              Bachelor Concepteur <br />
+              Développeur d’Applications
             </span>
           </h1>
         </div>

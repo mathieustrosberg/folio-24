@@ -1,20 +1,31 @@
 [
   {
     "name": "Marvel",
-    "description": "Application web en React intégrant un routeur pour naviguer entre les pages 'Personnages', 'Comics' et 'Favoris'. La page principale affiche les personnages de MARVEL sous forme de fiches, avec accès aux comics liés. Une page dédiée aux comics présente ces derniers par ordre alphabétique. Des moteurs de recherche et un système de pagination sont inclus pour chaque page. Les favoris sont stockés dans la mémoire locale du navigateur. Le site est déployé sur Vercel, en utilisant l'API MARVEL de manière sécurisée. Le site est également responsive.",
+    "description": "Application web en React avec un routeur pour naviguer entre les pages 'Personnages', 'Comics' et 'Favoris'. La gestion des données est assurée par MongoDB et Express, permettant une interaction efficace avec la base de données. La page principale affiche les personnages MARVEL sous forme de fiches, permettant d'accéder aux comics associés. Une page dédiée présente les comics par ordre alphabétique. Chaque page inclut des moteurs de recherche et un système de pagination. Les favoris sont stockés dans la mémoire locale du navigateur. L'application est déployée sur Vercel et utilise l'API MARVEL de manière sécurisée. Le site est responsive et utilise DaisyUI pour l'interface utilisateur.",
     "link": "https://marvel-app-front.vercel.app/",
     "link_2": "https://github.com/mathieustrosberg/marvel-app"
   },
   {
     "name": "Just you Coiffure",
-    "description": "Le projet consiste à développer un site vitrine pour un salon de coiffure, permettant au gérant de mettre à jour les informations via une interface sécurisée. Pour cela, nous utiliserons React pour le frontend, avec Vite pour une construction et un déploiement rapides, et Node.js pour le backend. Le site intégrera un système d'authentification pour que seules les personnes autorisées puissent modifier les contenus. Les principales fonctionnalités incluront la gestion des services proposés, les horaires d'ouverture, et un formulaire de contact.",
+    "description": "Site vitrine pour un salon de coiffure, permettant au gérant de mettre à jour les informations via une interface sécurisée. Nous avons utilisé React pour le frontend, avec Vite pour une construction et un déploiement rapides, Tailwind pour le design, et GSAP pour les animations. Pour le backend, nous avons utilisé Strapi, un CMS headless, afin de gérer facilement les contenus. Le site intègre un système d'authentification pour que seules les personnes autorisées puissent modifier les contenus. Les principales fonctionnalités incluent la gestion des services proposés, les horaires d'ouverture, et un formulaire de contact.",
     "link": "",
     "link_2": "https://github.com/mathieustrosberg/just-you-coiffure-website"
   },
   {
     "name": "Folio 2023",
-    "description": "Ce portfolio présente mon parcours professionnel et académique, mes projets, et toutes les informations nécessaires pour me contacter. J'ai utilisé React pour créer une interface utilisateur dynamique et interactive, et React Router pour faciliter la navigation entre les différentes sections du site.",
+    "description": "Ce portfolio présente mon parcours professionnel et académique, mes projets, et toutes les informations nécessaires pour me contacter. J'ai utilisé React pour créer une interface utilisateur dynamique et interactive, et React Router pour faciliter la navigation entre les différentes sections du site. De plus, le site est entièrement responsive.",
     "link": "https://folio2023-mathieustrosberg.netlify.app",
     "link_2": "https://github.com/mathieustrosberg/folio-23"
+  },
+  {
+    "name": "ADM Concept Store",
+    "description": "Dans le cadre du projet pour L'Armoire de Maman, une plateforme de vente en ligne de vêtements, j'étais en charge de concevoir graphiquement et structurer un site e-commerce via la plateforme Squarespace. Cette mission a englobé le développement d'un magasin en ligne, présentant une sélection diversifiée de vêtements et d'accessoires. Le site incorpore également des fonctionnalités clés, incluant des fiches produits détaillées, la gestion des livraisons et des retours, des processus de commande épurés, ainsi que des espaces dédiés aux offres promotionnelles et à l'abonnement à une newsletter.",
+    "link": "https://admstore.fr/"
+  },
+  {
+    "name": "Loon-Garden Restaurant",
+    "description": "Anciennement une franchise les patrons du restaurant sont devenus indépendant, j'ai eu l'opportunité de créer une identité visuelle complète pour celui-ci. Mon rôle englobait la création du logo, la conception des cartes du menu, ainsi que le développement du site internet du restaurant. Le résultat final est une identité visuelle cohérente qui communique efficacement l’essence et le caractère du restaurant sur tous les supports, du logo au site Web. À partir de la plateforme Squarespace, j'ai développé le site web du restaurant. Il présente des images attractives de plats, des informations sur les heures d'ouverture, les réservations, les événements spéciaux, et plus encore. La mise en page du site a été optimisée pour les appareils mobiles, assurant ainsi une accessibilité optimale aux clients potentiels.",
+    "link": "https://www.loon-garden.fr/",
+    "link_2": "https://github.com/mathieustrosberg/loon-garden-website"
   }
 ]
