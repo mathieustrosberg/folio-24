@@ -12,4 +12,4 @@ Click on this link to take a look at the project : https://www.mathieustrosberg.
 
 ## About this project
 
-The Portfolio Project is a **front-end** project made in 2023 with **React** & **Tailwind**.
+The Portfolio Project is a **front-end** project made in 2024 with **React** & **Tailwind**.
